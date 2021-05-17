@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.2 (Python 3.9.2 on win32)" generated="20210516 21:51:38.636" rpa="false" schemaversion="2">
+<suite id="s1" name="Customkeywords" source="C:\wamp64\www\books\booktestspython\chapter12\customkeywords.robot">
+<test id="s1-t1" name="Use Custom Keywords">
+<kw name="Echo Hello">
+<kw name="Log" library="BuiltIn">
+<arg>Hello!</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210516 21:51:38.663" level="INFO">Hello!</msg>
+<status status="PASS" starttime="20210516 21:51:38.663" endtime="20210516 21:51:38.663"/>
+</kw>
+<status status="PASS" starttime="20210516 21:51:38.662" endtime="20210516 21:51:38.663"/>
+</kw>
+<kw name="Say Hello">
+<msg timestamp="20210516 21:51:38.664" level="FAIL">No keyword with name 'Say Hello' found.</msg>
+<status status="FAIL" starttime="20210516 21:51:38.664" endtime="20210516 21:51:38.664"/>
+</kw>
+<status status="FAIL" starttime="20210516 21:51:38.662" endtime="20210516 21:51:38.665">No keyword with name 'Say Hello' found.</status>
+</test>
+<status status="FAIL" starttime="20210516 21:51:38.637" endtime="20210516 21:51:38.667"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Customkeywords">Customkeywords</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210516 21:51:38.657" level="ERROR">Error in file 'C:\wamp64\www\books\booktestspython\chapter12\customkeywords.robot' on line 2: Importing library 'HelloLibrary' failed: ModuleNotFoundError: No module named 'HelloLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\yo\AppData\Local\Programs\Python\Python39\Scripts\robot.exe
+  c:\users\yo\appdata\local\programs\python\python39\python39.zip
+  c:\users\yo\appdata\local\programs\python\python39\DLLs
+  c:\users\yo\appdata\local\programs\python\python39\lib
+  c:\users\yo\appdata\local\programs\python\python39
+  C:\Users\yo\AppData\Roaming\Python\Python39\site-packages
+  c:\users\yo\appdata\local\programs\python\python39\lib\site-packages
+  c:\wamp64\www\books\booktestspython\chapter03\01_todo\src
+  c:\wamp64\www\books\booktestspython\chapter04\src
+  c:\wamp64\www\books\booktestspython\chapter06\src
+  c:\wamp64\www\books\booktestspython\chapter07\src
+  c:\wamp64\www\books\booktestspython\chapter11\httpclient\src</msg>
+</errors>
+</robot>
